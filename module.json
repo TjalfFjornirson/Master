@@ -6,6 +6,9 @@
     "version": "1.0.0",
     "minimumCoreVersion": "0.5.0",
     "compatibleCoreVersion":"0.5.5",
+    "url": "https://github.com/TjalfFjornirson/Shared_Data",
+    "manifest": "https://github.com/TjalfFjornirson/Shared_Data/raw/master/module.json",
+    "download": "https://github.com/TjalfFjornirson/Shared_Data/archive/master.zip",
     "packs": [
         {
           "name": "shared_gear",
