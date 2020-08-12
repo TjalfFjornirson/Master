@@ -1,0 +1,67 @@
+{   
+    "name": "SharedData",   
+    "title": "Shared Data",   
+    "description": "Sharing data across worlds",   
+    "author": "Tjalf Fjornirson",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.5.0",
+    "compatibleCoreVersion":"0.5.5",
+    "packs": [
+        {
+          "name": "shared_gear",
+          "label": "000.Gear",
+          "system": "dnd5e",
+          "path": "packs/shared_gear.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_spells",
+          "label": "000.Spells",
+          "system": "dnd5e",
+          "path": "packs/shared_spells.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_macros",
+          "label": "000.Macros",
+          "system": "dnd5e",
+          "path": "packs/shared_macros.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_tools",
+          "label": "000.Tools",
+          "system": "dnd5e",
+          "path": "packs/shared_tools.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_tables",
+          "label": "000.Tables",
+          "system": "dnd5e",
+          "path": "packs/shared_tables.db",
+          "entity": "RollTable",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_weapons",
+          "label": "000.Weapons",
+          "system": "dnd5e",
+          "path": "packs/shared_weapons.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_armor",
+          "label": "000.Armor",
+          "system": "dnd5e",
+          "path": "packs/shared_armor.db",
+          "entity": "Item",
+          "module": "SharedData"
+        }
+      ]
+  }
