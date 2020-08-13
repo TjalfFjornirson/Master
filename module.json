@@ -95,7 +95,7 @@
           "label": "000.Monster",
           "system": "dnd5e",
           "path": "packs/shared_monster.db",
-          "entity": "Item",
+          "entity": "Actor",
           "module": "SharedData"
         }
       ]
