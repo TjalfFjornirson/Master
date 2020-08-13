@@ -3,7 +3,7 @@
     "title": "Shared Data",   
     "description": "Sharing data across worlds",   
     "author": "Tjalf Fjornirson",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "minimumCoreVersion": "0.6.0",
     "compatibleCoreVersion":"0.6.5",
     "url": "https://github.com/TjalfFjornirson/Shared_Data",
