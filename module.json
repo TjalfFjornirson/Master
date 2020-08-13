@@ -89,6 +89,14 @@
           "path": "packs/shared_feats.db",
           "entity": "Item",
           "module": "SharedData"
+        },
+        {
+          "name": "shared_monster",
+          "label": "000.Monster",
+          "system": "dnd5e",
+          "path": "packs/shared_monster.db",
+          "entity": "Item",
+          "module": "SharedData"
         }
       ]
   }
