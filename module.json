@@ -3,12 +3,12 @@
     "title": "Shared Data",   
     "description": "Sharing data across worlds",   
     "author": "Tjalf Fjornirson",
-    "version": "1.0.1",
-    "minimumCoreVersion": "0.5.0",
-    "compatibleCoreVersion":"0.5.5",
+    "version": "1.0.2",
+    "minimumCoreVersion": "0.6.0",
+    "compatibleCoreVersion":"0.6.5",
     "url": "https://github.com/TjalfFjornirson/Shared_Data",
     "manifest": "https://github.com/TjalfFjornirson/Shared_Data/raw/master/module.json",
-    "download": "https://github.com/TjalfFjornirson/Shared_Data/archive/v0.1.1.zip",
+    "download": "https://github.com/TjalfFjornirson/Shared_Data/archive/master/master.zip",
     "packs": [
         {
           "name": "shared_gear",
