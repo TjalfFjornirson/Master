@@ -97,6 +97,22 @@
           "path": "packs/shared_monster.db",
           "entity": "Actor",
           "module": "SharedData"
+        },
+        {
+          "name": "shared_Humanoids",
+          "label": "001.Humanoids",
+          "system": "dnd5e",
+          "path": "packs/shared_monHumClass.db",
+          "entity": "Actor",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_namednpcs",
+          "label": "010.Named NPCs",
+          "system": "dnd5e",
+          "path": "packs/shared_namedNpcs.db",
+          "entity": "Actor",
+          "module": "SharedData"
         }
       ]
   }
