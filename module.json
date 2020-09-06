@@ -113,6 +113,22 @@
           "path": "packs/shared_namedNpcs.db",
           "entity": "Actor",
           "module": "SharedData"
+        },
+        {
+          "name": "shared_journalCond",
+          "label": "001.Conditions",
+          "system": "dnd5e",
+          "path": "packs/shared_conditions.db",
+          "entity": "JournalEntry",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_skills",
+          "label": "001.Skills",
+          "system": "dnd5e",
+          "path": "packs/shared_skills.db",
+          "entity": "JournalEntry",
+          "module": "SharedData"
         }
       ]
   }
