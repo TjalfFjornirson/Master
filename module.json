@@ -3,9 +3,9 @@
     "title": "Shared Data",   
     "description": "Sharing data across worlds",   
     "author": "Tjalf Fjornirson",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "minimumCoreVersion": "0.6.0",
-    "compatibleCoreVersion":"0.6.5",
+    "compatibleCoreVersion":"0.6.6",
     "url": "https://github.com/TjalfFjornirson/Shared_Data",
     "manifest": "https://github.com/TjalfFjornirson/Shared_Data/raw/master/module.json",
     "download": "https://github.com/TjalfFjornirson/Shared_Data/archive/master/master.zip",
@@ -91,6 +91,14 @@
           "module": "SharedData"
         },
         {
+          "name": "shared_races",
+          "label": "000.Races",
+          "system": "dnd5e",
+          "path": "packs/shared_races.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
           "name": "shared_monster",
           "label": "000.Monster",
           "system": "dnd5e",
@@ -127,6 +135,22 @@
           "label": "001.Skills",
           "system": "dnd5e",
           "path": "packs/shared_skills.db",
+          "entity": "JournalEntry",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_PHB",
+          "label": "000.PHB",
+          "system": "dnd5e",
+          "path": "packs/shared_phb.db",
+          "entity": "JournalEntry",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_DMG",
+          "label": "000.DMG",
+          "system": "dnd5e",
+          "path": "packs/shared_dmg.db",
           "entity": "JournalEntry",
           "module": "SharedData"
         }
