@@ -3,7 +3,7 @@
     "title": "Shared Data",   
     "description": "Sharing data across worlds",   
     "author": "Tjalf Fjornirson",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "minimumCoreVersion": "0.6.0",
     "compatibleCoreVersion":"0.6.6",
     "url": "https://github.com/TjalfFjornirson/Shared_Data",
@@ -47,6 +47,22 @@
           "label": "000.Tables",
           "system": "dnd5e",
           "path": "packs/shared_tables.db",
+          "entity": "RollTable",
+          "module": "SharedData"
+        },
+		{
+          "name": "shared_tblBackgrounds",
+          "label": "000.Tables Backgrounds",
+          "system": "dnd5e",
+          "path": "packs/shared_tblBackgrounds.db",
+          "entity": "RollTable",
+          "module": "SharedData"
+        },
+		{
+          "name": "shared_tblPHB",
+          "label": "000.Tables PHB",
+          "system": "dnd5e",
+          "path": "packs/shared_tblPhb.db",
           "entity": "RollTable",
           "module": "SharedData"
         },
