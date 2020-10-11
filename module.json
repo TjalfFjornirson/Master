@@ -19,6 +19,14 @@
           "module": "SharedData"
         },
         {
+          "name": "shared_tblTreasure",
+          "label": "000.Treasure",
+          "system": "dnd5e",
+          "path": "packs/shared_tblTreasure.db",
+          "entity": "RollTable",
+          "module": "SharedData"
+        },
+        {
           "name": "shared_monster",
           "label": "000.Monster",
           "system": "dnd5e",
@@ -48,6 +56,22 @@
           "system": "dnd5e",
           "path": "packs/shared_dmg.db",
           "entity": "JournalEntry",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_magicItem",
+          "label": "011.Magic Items",
+          "system": "dnd5e",
+          "path": "packs/shared_magicItem.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_itmTreasure",
+          "label": "100.Treasure",
+          "system": "dnd5e",
+          "path": "packs/shared_itmTreasure.db",
+          "entity": "Item",
           "module": "SharedData"
         }
       ]
