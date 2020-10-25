@@ -3,9 +3,9 @@
     "title": "Tjalfs DungeonMasters Imp",   
     "description": "Every DM needs a Tjalf",   
     "author": "Tjalf Fjornirson",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "minimumCoreVersion": "0.6.0",
-    "compatibleCoreVersion":"0.6.6",
+    "compatibleCoreVersion":"0.7.5",
     "url": "https://github.com/TjalfFjornirson/Master",
     "manifest": "https://github.com/TjalfFjornirson/Master/raw/master/module.json",
     "download": "https://github.com/TjalfFjornirson/Master/archive/master/master.zip",
@@ -72,6 +72,22 @@
           "system": "dnd5e",
           "path": "packs/shared_itmTreasure.db",
           "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_lootJournal",
+          "label": "010.Loot Journal",
+          "system": "dnd5e",
+          "path": "packs/shared_lootJournal.db",
+          "entity": "JournalEntry",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_tblLoot",
+          "label": "010.Loot Tables",
+          "system": "dnd5e",
+          "path": "packs/shared_tblLoot.db",
+          "entity": "RollTable",
           "module": "SharedData"
         }
       ]
